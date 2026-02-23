@@ -42,16 +42,15 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 ```
-### 5. Create a Superuser
-```
-python manage.py createsuperuser
-```
-### 6. Start the Development Server
+### 5. Start the Development Server
 ```
 python manage.py runserver
 ```
-
-
-### 2️⃣ Create Virtual Environment
-python3 -m venv env
-source env/bin/activate
+### how to see encryption on database
+You can open the database file (`db.sqlite3`) using external tools such as:
+- SQLite extension in VS Code
+#### Steps:
+1. Install SQLite extension in VS Code
+2. Open the application
+3. Select the `db.sqlite3` file
+4. Browse the tables to view stored data (users_user and users_securenote)
