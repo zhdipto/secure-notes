@@ -53,4 +53,4 @@ You can open the database file (`db.sqlite3`) using external tools such as:
 1. Install SQLite extension in VS Code
 2. Open the application
 3. Select the `db.sqlite3` file
-4. Browse the tables to view stored data (users_user and users_securenote)
+4. Browse the tables to view stored data (`users_user and users_securenote`)
