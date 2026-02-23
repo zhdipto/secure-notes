@@ -21,7 +21,7 @@ Secure Notes is a Django-based web application that allows users to create and s
 
 ---
 
-## ⚙️ How to Install and Run the Project Locally
+## How to Install and Run the Project Locally
 
 ### 1. Clone the Repository
 ``` bash
@@ -46,7 +46,7 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-### how to see encryption on database
+## How to see encryption on database
 You can open the database file (`db.sqlite3`) using external tools such as:
 - SQLite extension in VS Code
 #### Steps:
