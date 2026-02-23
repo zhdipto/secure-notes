@@ -55,3 +55,10 @@ You can open the database file (`db.sqlite3`) using external tools such as:
 2. Open the application
 3. Select the `db.sqlite3` file
 4. Browse the tables to view stored data (`users_user and users_securenote`)
+
+
+## Demo Screenshot
+<img width="1920" height="1080" alt="Screenshot from 2026-02-24 02-27-21" src="https://github.com/user-attachments/assets/d20dff84-23cc-4bd0-8523-d5e97f163214" />
+<img width="1920" height="1080" alt="Screenshot from 2026-02-24 02-27-30" src="https://github.com/user-attachments/assets/c4b5d753-6bb5-4b6a-a134-d8c7539d237f" />
+<img width="1920" height="1080" alt="Screenshot from 2026-02-24 02-27-36" src="https://github.com/user-attachments/assets/1e39dcb8-e49a-4930-8d05-969d69874d40" />
+<img width="1920" height="1080" alt="Screenshot from 2026-02-24 02-27-42" src="https://github.com/user-attachments/assets/a1c8c2d0-50b8-4c11-a109-dbac19eb6264" />
