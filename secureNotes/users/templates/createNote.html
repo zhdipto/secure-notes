@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-form">
+
+    <div class="form-card">
+        <h2>Create Secure Note 🔐</h2>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <label>Title</label>
+            <input type="text" name="title" required>
+
+            <label>Content</label>
+            <textarea name="content" rows="6" required></textarea>
+
+            <button type="submit">Save</button>
+        </form>
+
+        <a class="back-link" href="{% url 'dashboard' %}">← Back to Dashboard</a>
+    </div>
+
+</div>
+
+<style>
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.form-card {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+textarea, input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1e88e5;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+.back-link {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #1e88e5;
+}
+</style>
+
+{% endblock %}
