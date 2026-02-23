@@ -49,6 +49,7 @@ python manage.py runserver
 ## How to see encryption on database
 You can open the database file (`db.sqlite3`) using external tools such as:
 - SQLite extension in VS Code
+- DB Browser for SQLite
 #### Steps:
 1. Install SQLite extension in VS Code
 2. Open the application
